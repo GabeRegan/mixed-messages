@@ -2,3 +2,5 @@ const names = ['Danial', 'Gabe', 'Gavin', 'Stephen', 'Dr.Doofinsmirtz', 'Your Mo
 const pastActions = ['killed', 'attacked', 'kissed', 'sniffed', 'caressed', 'exploded', 'smiled at', 'tazed', 'summoned a beetle upon', 'cursed', 'hugged', 'stank around'];
 const presentActions = ['kill', 'kiss', 'crap on', 'hug', 'gundown', 'sniff', 'smile at', 'incinerate', 'tell on', 'decapitate', 'sing to', 'dance with', 'sneeze on', 'run away from'];
 const pastFeelings = ['thrilled', 'happy', 'sad', 'angry', 'elated', 'romantic', 'offended', 'voilent', 'chill', 'beautiful', 'powerful', 'stupid', 'sentient', 'high', 'murderious', 'constipated'];
+
+const randomName = `${names[Math.floor(Math.random() * names.length)]}`
