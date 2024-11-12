@@ -3,4 +3,9 @@ const pastActions = ['killed', 'attacked', 'kissed', 'sniffed', 'caressed', 'exp
 const presentActions = ['kill', 'kiss', 'crap on', 'hug', 'gundown', 'sniff', 'smile at', 'incinerate', 'tell on', 'decapitate', 'sing to', 'dance with', 'sneeze on', 'run away from'];
 const pastFeelings = ['thrilled', 'happy', 'sad', 'angry', 'elated', 'romantic', 'offended', 'voilent', 'chill', 'beautiful', 'powerful', 'stupid', 'sentient', 'high', 'murderious', 'constipated'];
 
-const randomName = `${names[Math.floor(Math.random() * names.length)]}`
+const randomName = `${names[Math.floor(Math.random() * names.length)]}`;
+const randomName2 = `${names[Math.floor(Math.random() * names.length)]}`;
+const randomPastAction = `${pastActions[Math.floor(Math.random() * pastActions.length)]}`;
+const randomPresentAction = `${presentActions[Math.floor(Math.random() * presentActions.length)]}`;
+
+console.log(`${randomName} ${randomPastAction} ${randomName2}`);
