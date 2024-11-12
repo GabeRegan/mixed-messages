@@ -7,5 +7,10 @@ const randomName = `${names[Math.floor(Math.random() * names.length)]}`;
 const randomName2 = `${names[Math.floor(Math.random() * names.length)]}`;
 const randomPastAction = `${pastActions[Math.floor(Math.random() * pastActions.length)]}`;
 const randomPresentAction = `${presentActions[Math.floor(Math.random() * presentActions.length)]}`;
+const randomPastFeeling = `${pastFeelings[Math.floor(Math.random() * pastFeelings.length)]}`;
 
-console.log(`${randomName} ${randomPastAction} ${randomName2}`);
+console.log(' ');
+console.log(`${randomName} ${randomPastAction} ${randomName2}.`);
+console.log(`This made ${randomName2} feel ${randomPastFeeling}...`);
+console.log(`So ${randomName2} decided to ${randomPresentAction} ${randomName}.`);
+console.log(' ');
